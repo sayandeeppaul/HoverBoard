@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Drawing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="option-cont">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="tool-cont">
+        <img src="Icons/Pencil.svg " alt="">
+        <img src="Icons/Eraser.svg " alt="">
+        <img src="Icons/StickyNote.svg" alt="">
+        <img src="Icons/Upload.svg" alt="">
+        <img src="Icons/Undo.svg" alt="">
+        <img src="Icons/Redo.svg" alt="">
+    </div>
+    <div class="pencil-tool-cont">
+        <div class="pencil-width-cont">
+            <input type="range" min="2" max="12" value="3">
+        </div>
+        <div class="pencil-color-cont">
+            <div class="black pencil-color"></div>
+            <div class="red pencil-color"></div>
+            <div class="blue pencil-color"></div>
+        </div>
+    </div>
+    <div class="eraser-tool-cont">
+        <div class="eraser-width-cont">
+            <input type="range" min="2" max="12" value="3">
+        </div>
+    </div>
+
+    <script src="tools.js"></script>
+</body>
+
+</html>
